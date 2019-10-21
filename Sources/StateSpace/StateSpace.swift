@@ -2,10 +2,6 @@ public protocol Statable {
     associatedtype State
 }
 
-public protocol Estimatable {
-    associatedtype Estimate
-}
-
 public protocol Controllable {
     associatedtype Control
 }
